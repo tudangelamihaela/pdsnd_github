@@ -116,7 +116,7 @@ def time_stats(df):
     print('The most common day is ', days[popularday])
     
     # TO DO: display the most common start hour
-    #we create a 'hour' column by extracting the hour from 'Start Time'
+    # we create a 'hour' column by extracting the hour from 'Start Time'
     df['hour'] = df['Start Time'].dt.hour
     popularhour = df['hour'].mode()[0]
     print('The Most Popular hour is ', popularhour) 
@@ -184,7 +184,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-# 3rd attempt of submision: The ability to display raw data to the user, upon their request.
+# 3rd attempt of submision: The ability to display raw data to the user, upon their request. -> comment to be ignored
 
 def request_data(df):
     data_start = 0
