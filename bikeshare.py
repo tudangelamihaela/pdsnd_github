@@ -22,7 +22,7 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    print('Hello! Let\'s explore some US bikeshare data!')
+    print('Hello! Let\'s explore together some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
 
     city = input('Please specify the city you want see data from the following list: Chicago, New York or Washington : ')
@@ -116,7 +116,7 @@ def time_stats(df):
     print('The most common day is ', days[popularday])
     
     # TO DO: display the most common start hour
-    #we create a 'hour' column by extracting the hour from 'Start Time'
+    # we create a 'hour' column by extracting the hour from 'Start Time'
     df['hour'] = df['Start Time'].dt.hour
     popularhour = df['hour'].mode()[0]
     print('The Most Popular hour is ', popularhour) 
@@ -170,7 +170,7 @@ def user_stats(df):
     user_types = df['User Type'].value_counts()
     print(user_types,'\n')
 
-    # TO DO: Display counts of gender
+    # TO DO: Display counts perv gender
     if 'Gender' in df.columns:    
         gender = df['Gender'].value_counts()
         print(gender,'\n')
@@ -184,7 +184,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-# 3rd attempt of submision: The ability to display raw data to the user, upon their request.
+# 3rd attempt of submision: The ability to display raw data to the user, upon their request. 
 
 def request_data(df):
     data_start = 0
@@ -192,7 +192,7 @@ def request_data(df):
     df_length = len(df.index)
     
     while data_start < df_length:
-            data_raw = input("\nPress 'yes' if you would like to see individual data otherwise press 'no'.\n")
+            data_raw = input("\nPress 'Yes' if you would like to see individual data otherwise press 'No'.\n")
             if data_raw.lower() == 'yes':
             
                 print("\nDisplaying the 5 rows with data.\n")
