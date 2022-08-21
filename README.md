@@ -26,3 +26,14 @@ In this assignment we needed to used Python to investigate data pertaining to bi
 
  - import the data and compute descriptive statistics to answer questions about the data
  - write a script that would accept raw input to create an interactive experience in the terminal to display these statistics.
+ 
+ *** Project 3 ***
+
+For this project we needed to demonstrate the knowledge gained in terms of Git and GitHub usage by filling of a template with all the commands used to perform the requested tasks and actions.
+
+### Files used for this project
+The following files will be required to run the program:
+
+ - washington.csv 
+ - new_york_city.csv 
+ - chicago.csv
