@@ -184,7 +184,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-# 3rd attempt of submision: The ability to display raw data to the user, upon their request. -> comment to be ignored
+# 3rd attempt of submision: The ability to display raw data to the user, upon their request. -> comment added just for project susbmition purposes - to be ignored
 
 def request_data(df):
     data_start = 0
