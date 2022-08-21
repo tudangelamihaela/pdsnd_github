@@ -19,4 +19,10 @@ The project included also a presentation where we were required to create four s
  - How many movies were rented per each genre?
  - How many movies were rented in July and August 2005 for the first two stores?
  - Total pay amount per customer for 2007
+ 
+*** Project 2 ***
 
+In this assignment we needed to used Python to investigate data pertaining to bike share programs in three cities of America: Chicago, New York City, and Washington. We were required to create code that would:
+
+ - import the data and compute descriptive statistics to answer questions about the data
+ - write a script that would accept raw input to create an interactive experience in the terminal to display these statistics.
